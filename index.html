@@ -4,41 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Wikipedia</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <header>
+        <div class="header">   
+            <figure class="logo">
+                <img src="assets/images/wikipedialogo2.png" width="200" alt="logo tipo wekipedia"/>
+            </figure>
         </div>
-    </div>
-
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar...">
+            <button type="button">Pesquisar</button>
+        </div>
+    </header>
     <div class="bar"></div>
 
     <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+        <nav class="sidebar">
+            <h2>Jogos eletrônicos</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="index.html">Sobre Elden Ring</a></li>
+                <li><a href="video.html">Video Play</a></li>
+                <li><a target="_blank" href="https://www.fromsoftware.jp/ww/">From Software</a></li>
+                <li><a target="_blank" href="https://forum.adrenaline.com.br/threads/elden-ring-topico-oficial.691969/">Fórum</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <main>
 
+            <div class="main">
+                <h1 id="sobre">Sobre Elden Ring</h1>
+                <p>Elden Ring (エルデンリング Eruden Ringu?) é um jogo eletrônico de RPG de ação em terceira pessoa, desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. O jogo é um projeto colaborativo entre o diretor Hidetaka Miyazaki e o romancista de fantasia George R. R. Martin. Foi lançado em 25 de fevereiro de 2022 para Microsoft Windows, PlayStation 4, PlayStation 5, Xbox One e Xbox Series X/S. </p>
+
+                <h2 id="resumo">Resumo</h2>
+                <p>Elden Ring ocorre no reino das Terras Intermédias, algum tempo após a destruição do Anel Prístino e a dispersão de seus fragmentos, as Grandes Runas. Uma vez agraciado pelo anel e o Erdtree que simboliza sua presença, o reino agora é governado pela descendência semideusa da Rainha Marika, a Eterna, cada um possuindo um fragmento do anel que os corrompe e os mancha com poder. Como um "Maculado" — um exilado das Terras Intermédias e que perdeu a graça do anel e convocado de volta após a Fragmentação — o jogador deve atravessar o reino para encontrar todas as Grandes Runas, restaurar o Anel Prístino e se tornar o Lorde Prístino.</p>
+
+                <h2 id="desenvolvimento">Desenvolvimento</h2>
+                <p>Elden Ring foi desenvolvido pela FromSoftware e publicado pela Bandai Namco Entertainment. Foi anunciado na E3 2019 para Microsoft Windows, PlayStation 4 e Xbox One.[9] Nenhuma informação adicional foi revelada até que um trailer de junho de 2021 anunciou uma data de lançamento para 21 de janeiro de 2022, com lançamentos adicionais para PlayStation 5 e Xbox Series X/S.[10] Em outubro de 2021, foi anunciado que o jogo seria adiado para 25 de fevereiro de 2022.</p>
+
+                <hr>
+
+                <figure class="content">
+                    <img width="500" src="assets/images/elden-ring-bosses-in-order-main-mandatory-8042-1647011924713.webp" alt="Imagem de uma boss fight de elden ring">
+                    <figcaption>Imagem de uma boss fight de elden ring</figcaption>
+                </figure>
+
+                <hr>
+
+                <h2 id="vendas">Vendas</h2>
+                <p>Elden Ring vendeu 12 milhões de cópias em todo o mundo em 18 dias após seu lançamento, com um milhão apenas no Japão. Ele vendeu 13,4 milhões de cópias em todo o mundo até o final de março de 2022, e mais de 16,6 milhões de unidades até o final de julho de 2022. A versão para Windows atraiu 734 000 jogadores simultâneos na Steam minutos após seu lançamento, superando Dark Souls III e Sekiro, e se tornando o maior lançamento da FromSoftware no serviço. Ele liderou a tabela de vendas semanais da Steam após o lançamento, com várias edições do jogo ocupando quatro posições entre os cinco primeiros: os três primeiros lugares e o número cinco. Em 7 de março de 2022, atingiu um pico de 953 000 jogadores simultâneos na Steam, classificando-o entre os mais altos da plataforma em sua história.</p>
+                <p>Foi o jogo de varejo mais vendido no Japão durante sua primeira semana de lançamento, com 278 507 unidades físicas vendidas naquela semana; a versão de PlayStation 4 ficou em primeiro lugar com 188 490 cópias vendidas, enquanto que a versão de PlayStation 5 ficou em segundo lugar com 90 017 cópias comercializadas. Após sua primeira semana de lançamento, foi o segundo jogo mais vendido do mês em fevereiro de 2022, abaixo de Pokémon Legends: Arceus.</p>
+
+            </div>
+        </main>
+
+        <section>
         <div class="anchors">
-            <h2>Neste Artigo</h2>
+            <h2>Súmario</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#sobre">Inicio</a></li>
+                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#desenvolvimento">Desenvolvimento</a></li>
+                <li><a href="#vendas">Vendas</a></li>
             </ul>
+            <hr>
         </div>
+        </section>
     </div>
+        
 
+    <footer>
     <div class="footer">
 
+        <p>Desenvolvido por Cristian Ribeiro<sup>®️</sup></p>
+
     </div>
+    </footer>
 </body>
 </html>
